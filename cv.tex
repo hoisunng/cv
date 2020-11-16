@@ -1,0 +1,155 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[blue]{classic}
+
+\usepackage{relsize}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry}
+\recomputelengths
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcommand{\CC}{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\relsize{-3}{\textbf{++}}}}
+\newcommand{\CPP}{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\large\textbf{++}}}
+
+% personal data
+\firstname{Hoi Sun}
+\familyname{\textbf{Ng}}
+\title{\CPP{} Software Engineer}
+\address{Glattparkstrasse 31}{8152 Glattpark, Switzerland}
+\phone{+41 (0) 76 269 82 08}
+\email{hoisun.ng@gmail.com}
+\social[linkedin]{hoisunng}
+%\extrainfo{Date of Birth: 11 August 1988\\
+%Place of Birth: Hongkong\\
+%Nationality: Dutch\\
+%Residence Permit: C}
+\photo[64pt]{cv_photo.jpg}
+
+%\quote{Passionate \CC{} programmer determined to deliver meaningful, high quality products to give back to society.}
+
+\setlength{\hintscolumnwidth}{3cm}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Personal Details}
+\cvline{Date of Birth}{11 August 1988}
+\cvline{Place of Birth}{Hong Kong}
+\cvline{Nationality}{Dutch}
+\cvline{Residence Permit}{C}
+%\cvline{Marital Status}{Single}
+
+\section{Education}
+\subsection{Certificate of Advanced Studies}
+\cventry{Sept. 2018 --\\ Feb. 2019}{Computer Science}{Eidgenössische Technische Hochschule Zürich}{Switzerland}{}
+{ - Major in Visual Computing.\\
+    - Coursework includes: Computer Vision, 3D Vision, Advanced Machine Learning.}
+
+\subsection{Master of Science}
+\cventry{Sept. 2010 --\\ July 2013}{Embedded Systems}{Eindhoven University of Technology}{The Netherlands}{\textit{`Cum Laude'}}
+{ - Focus on Computer Architectures.\\
+    - Coursework includes: (Embedded) Computer Architecture, Multiprocessors}
+%\cvline{---}{\textsc{Master's Thesis}}
+%\cvline{}{\textit{Design and Evaluation of a Novel Programmable Accelerator for Digital Signal Processing}}
+%\cvline{Description}{Evaluation of several digital signal processing applications on a novel programmable accelerator, which resulted in a patent application for a novel method of performing the fast Fourier transform.}
+	
+\subsection{Bachelor of Science}
+\cventry{Sept. 2006 --\\ June 2012}{Electrical Engineering}{Eindhoven University of Technology}{The Netherlands}{}
+{ - Minor in Computer Science and Engineering.}
+%\cvline{---}{\textsc{Bachelor's Thesis}}
+%\cvline{Title}{\textit{eCubee: from Sensors to Screens}}
+%\cvline{Description}{Improvement of the PCubee project \href{http://hct.ece.ubc.ca/cubee/}{(www.cubee.ca)} by developing an embedded application in \CC{} with OpenSceneGraph, which uses sensor data to apply perspective correction to images to simulate the 3D view in a portable cube.}
+
+\section{Work Experience}
+\cventry{Oct. 2020 --\\ now}{Software Engineer}{Safran Vectronix AG}{Heerbrugg SG}{}
+{ - Contract work (via Consulteer AG).\\
+    - Development of map functionality as part of a Qt C++ application for the Moskito TI product family.\\
+    \textit{Tools/Technologies: \CC{}11, Qt, Boost, GoogleMock, Robot Framework, Mercurial, Python}}
+\cventry{Oct. 2014 --\\ May 2020}{Software Engineer \CC{}}{Profidata AG}{Urdorf}{}
+{ - Development, maintenance and modernisation of the back-end of a large software product in investment and wealth management.\\
+    - Collaborate with business analysts to re-engineer the investment performance module for improvements in consistency, correctness and technical performance.\\
+    - Driving testability and quality assurance of the product.\\
+    - Write technical concepts and designs for projects or features.\\
+    - Oversee and coordinate different development teams and technical advisor for projects.\\
+    - Coordinate and coach nearshoring team members.\\
+    - Representative tasks in absence of the team leader/scrum master.\\
+    \textit{Tools/Technologies: \CC{}11/14/17, Boost, Catch2, Python, Git, Docker, Gerrit, Jenkins, Jira}}
+\cventry{Jan. 2014 --\\ May 2014}{Software Engineer}{Leica Geosystems}{Heerbrugg SG}{}
+{ - Contract work (via Darwin Recruitment AG).\\
+    - Migration of an existing laser calibration station controlled by an MFC application from Windows XP to Windows 7.\\
+    - Development of an MFC application to automate testing and evaluation of graded rotating lasers.\\
+    \textit{Tools/Technologies: Visual \CC{} 6.0, MFC}}
+\cventry{Apr. 2013 --\\ Aug. 2013}{Software Engineer}{Prodrive B.V.}{Son (The Netherlands)}{}
+{ - Assist in specification of the Prodrive Motion Platform (PMP) API.\\
+    - Design and initial development of a digital oscilloscope, which was responsible for visualisation of raw measurement data extracted from the API, as part of the PMP Tooling front-end.\\
+    \textit{Tools/Technologies: \CC{}11, Qt, Boost, GoogleMock, OpenGL, Subversion, Python}}
+\cventry{Sept. 2012 --\\ Feb. 2013}{Master's Thesis Internship}{IBM Research - Zurich}{Rüschlikon}{}
+{ - Assist in analytical research to evaluate digital signal processing algorithms on a novel programmable accelerator.\\
+    - Design a new mapping of the FFT data structure to enable higher memory bandwidth.\\
+    - Transcode algorithms to a self-developed Assembler and verify simulation results on a VHDL model of the processor.\\
+    \textit{Tools/Technologies: \CC{}, Assembler, VHDL}}
+\cventry{May 2010 --\\ Aug. 2012}{Embedded Software Engineer}{Prodrive B.V.}{Son (The Netherlands)}{}
+{ - Part-time, 16 hours a week, during studies.\\
+	- Develop low-level software, mainly for micro controllers with an ARM Cortex-M architecture without operating systems, for use in embedded systems with special focus on performance or predictability.\\
+	- Participation in full software life cycle: specification, design, implementation, verification and maintenance. \\
+	\textit{Tools/Technologies: C, \CC{}, GNU Arm, Subversion, Hardware debuggers}}
+
+\section{Further Experience}
+\cventry{Sept. 2008 --\\ Aug. 2009}{Board - Treasurer}{JCES Kinjin}{Eindhoven (The Netherlands)}{}
+{ - Managing the finances of the association.\\
+	- Organising weekly activities for members.}
+
+\section{Skills}
+
+\subsection{Personal}
+\cvline{}{
+\begin{tabular}{lcl}
+	Eager to learn & \hspace{0.75in} & Quick learner\\
+	Problem solving mentality & \hspace{0.75in} & Dedicated to quality\\
+	Responsible & \hspace{0.75in} & Reliable\\
+	Strong team player & \hspace{0.75in} & Able to work under pressure\\
+\end{tabular}}
+
+\subsection{IT}
+\cvcomputer{Programming}{C/\CC{}, Python, Bash} {OS}{Windows, Linux/Unix}
+\cvcomputer{Libraries}{STL, Boost, Qt, Catch2, GoogleMock, CUDA} {Scientific}{Matlab, Jupyter}
+\cvcomputer{CI}{Git, Gerrit, Jenkins, Docker}{}{}
+
+\subsection{Languages}
+\cvlanguage{Native}{Dutch}{}
+\cvlanguage{Other}{English (C2), German (C1), French (B2), Cantonese (A2)}{}
+%\cvlanguage{Other}{\begin{tabularx}{\maincolumnwidth}{YYYYY}
+%\hline
+%\multicolumn{2}{c}{\textsc{Understanding}} & \multicolumn{2}{c}{\textsc{Speaking}} & Writing \\
+%Listening & Reading & Interaction & Production & \\
+%\hline
+%\end{tabularx}}{}
+%\cvlanguage{English}{\begin{tabularx}{\maincolumnwidth}{YYYYY}
+%C2 & C2 & C2 & C2 & C2 \\
+%\end{tabularx}}{}
+%\cvlanguage{German}{\begin{tabularx}{\maincolumnwidth}{YYYYY}
+%C2 & C2 & C2 & C2 & C1 \\
+%\end{tabularx}}{}
+%\cvlanguage{French}{\begin{tabularx}{\maincolumnwidth}{YYYYY}
+%B2 & B2 & B1 & B1 & B2 \\
+%\end{tabularx}}{}
+%\cvlanguage{Cantonese}{\begin{tabularx}{\maincolumnwidth}{YYYYY}
+%B2 & A1 & B1 & B1 & A1 \\
+%\hline
+%\end{tabularx}}{}
+\cvitem{}{\footnotesize Levels: A1/A2: Basic user – B1/B2: Independent user – C1/C2: Proficient user}
+\cvline{}{\footnotesize \httplink[\color{blue}\underline{Common European Framework of Reference for Languages}]{http://europass.cedefop.europa.eu/en/resources/european-language-levels-cefr}}
+
+\section{Interests}
+\cvline{Hobbies}{Volleyball, Piano, Cinema, Flying (PPL), Exploring New Skills, Volunteering.}
+\cvline{Scientific}{Computer Architectures, Computer Vision, Artificial Intelligence, High Performance Computing, Aerospace, (Neuro)Psychology.}
+
+%\section{References}
+%\cvline{}{References will be made available upon request.}
+
+\end{document}
